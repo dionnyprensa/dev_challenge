@@ -95,13 +95,13 @@ All of this boils down to the maintenance of the transformation and loading code
 
 ### Out files
 
-![ERD]()
+![ERD](https://github.com/dionnyprensa/dev_challenge/blob/main/Challenge2/outputs/ERD.png)
 
-![ERD with stage]()
+![ERD with stage](https://github.com/dionnyprensa/dev_challenge/blob/main/Challenge2/outputs/ERD_with_stage.png)
 
-[Output files]()
+[Output files](https://drive.google.com/drive/folders/1QDAYT4JRLpc5VCCkAgOVT1ueQRhxdqP1?usp=sharing)
 
-[Queries]()
+[Queries](https://github.com/dionnyprensa/dev_challenge/blob/main/Challenge2/queries.sql)
 
 ----------
 
