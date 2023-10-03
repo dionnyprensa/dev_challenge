@@ -54,7 +54,7 @@ The full path is:
 
 - `bid_ask_spread`: A pair may have multiple data verticals within the market. This case uses the bid-ask-spread.
 
-- `DATE`: This is the level that adds value by grouping the information by day and gives the possibility of quick filters. It uses the format YYYYMMDD (20230930)
+- `DATE`: This is the level that adds value by grouping the information by day and gives the ability to use quick filters. It uses the format YYYYMMDD (20230930)
 
 - `HOUR`: In the same way that the previous level adds value, this one allows you to access a specific time on a given day or simply obtain information for all days, but at a particular hour.It uses the format HH(00, 01, 16, 22, 23)
 
