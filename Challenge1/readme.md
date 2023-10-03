@@ -35,7 +35,7 @@ Details:
 ----------
 
 ### Data Lake hierarchy
-I decided to use a hierarchy where the date and time will take priority in the physical partition. This adds value due to the fact of having the possibility to save time when it's necessary to filter for a particular day, regardless of the hour, or to retrieve records at a specific hour, regardless of the day.
+I decided to use a system (file hierarchy) in which the date and time will take priority in the physical partition. This adds value since it can save time when it's necessary to filter a particular day, regardless of the hour. It is also possible to retrieve records from a specific hour, regardless of the day.
 
 Let's start
 
@@ -61,4 +61,4 @@ The full path is:
 - The file name follows the path structure: `bid_ask_spread-BTC_MXN-20230930-23-part-0.csv` where `part-0` is the incremental partition number. This enables the reading of a group of files using the specific pair and any combination of filters from the previous levels.
 
 
-The hierarchy I've used to organize the data lake is based on my experience with Spark and its functionality for reading files using physical partition filters and wildcards. I'm not familiar with the tools used beyond Python, but I hope to know them.
+The hierarchy I've used to organize the data lake is based on my experience with Apache Spark and its functionality for reading files using physical partition filters and wildcards. I'm not familiar with the tools used beyond Python, but I hope to know them.
