@@ -158,3 +158,28 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+Challenge2/datalake/stage/deposits.csv
+Challenge2/datalake/stage/events.csv
+Challenge2/datalake/stage/users.csv
+Challenge2/datalake/stage/withdrawals.csv
+Challenge2/datalake/temp/deposit_sample_data.csv
+Challenge2/datalake/temp/event_sample_data.csv
+Challenge2/datalake/temp/user_id_sample_data.csv
+Challenge2/datalake/temp/withdrawals_sample_data.csv
+Challenge2/outputs/public/DimCurrencies__20231003.csv
+Challenge2/outputs/public/DimEvents__20231003.csv
+Challenge2/outputs/public/DimInterfaces__20231003.csv
+Challenge2/outputs/public/DimStatuses__20231003.csv
+Challenge2/outputs/public/DimUsers__20231003.csv
+Challenge2/outputs/public/FactDeposits__20231003.csv
+Challenge2/outputs/public/FactEvents__20231003.csv
+Challenge2/outputs/public/FactWithdrawals__20231003.csv
+Challenge2/outputs/stage/DimCurrencies__20231003.csv
+Challenge2/outputs/stage/DimEvents__20231003.csv
+Challenge2/outputs/stage/DimInterfaces__20231003.csv
+Challenge2/outputs/stage/DimStatuses__20231003.csv
+Challenge2/outputs/stage/DimUsers__20231003.csv
+Challenge2/outputs/stage/FactDeposits__20231003.csv
+Challenge2/outputs/stage/FactEvents__20231003.csv
+Challenge2/outputs/stage/FactWithdrawals__20231003.csv
+Challenge2/main.py
