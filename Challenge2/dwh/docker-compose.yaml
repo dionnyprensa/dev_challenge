@@ -1,0 +1,23 @@
+version: '3'
+services:
+  postgres:
+    image: postgres
+    restart: always
+    environment:
+      - POSTGRES_USER=challenge
+      - POSTGRES_PASSWORD=challenge
+      - POSTGRES_DB=challenge
+    ports:
+      - '5432:5432'
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  pgadmin-compose:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: 'challenge@gmail.com'
+      PGADMIN_DEFAULT_PASSWORD: 'challenge'
+    ports:
+      - '16543:80'
+    depends_on:
+      - postgres
